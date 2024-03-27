@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css'
+import logo from "./assets/logo.png"
 
 // eslint-disable-next-line no-undef
 function MainContent({nama = "joko the king", status, tanggalLahir = "12/03/2004"}) {
@@ -11,7 +12,7 @@ function MainContent({nama = "joko the king", status, tanggalLahir = "12/03/2004
     <>
       <header className={`header ${status}`}>
         <div className='logo-container'>
-          <img src='src/assets/logo.png' className='logo' alt='SNPB-LOGO' />
+          <img src={logo} className='logo' alt='SNPB-LOGO' />
           <footer className='image-footer'>SELEKSI NASIONAL BERBASIS PRESTASI</footer>
         </div>
 
@@ -59,7 +60,7 @@ function LoginInput({ onLogin }) {
       <div className='form'>
         <form onSubmit={handleSubmit}>
           <div className='logo-container'>
-            <img src='src/assets/logo.png' className='logo' alt='SNPB-LOGO' />
+            <img src={logo} className='logo' alt='SNPB-LOGO' />
             <footer className='image-footer'>SELEKSI NASIONAL BERBASIS PRESTASI</footer>
           </div>
 
