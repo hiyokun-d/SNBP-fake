@@ -65,11 +65,11 @@ function LoginInput({ onLogin }) {
           </div>
 
           <h1 className='title'>HASIL SELEKSI SNBP 2024</h1>
-          <span className='subtitle'>Masukkan Nomor Pendaftaran SNBP dan Tanggal Lahir</span>
+          <span className='subtitle'>Masukkan Namamu di kartu SNBP dan Tanggal Lahir</span>
 
           <div className='formContent'>
             {/* MAIN INPUT! */}
-            <span className='input-caption'>Nomor Pendaftaran</span>
+            <span className='input-caption'>Nama</span>
             <input type="text" name="yourName" placeholder='Nama mu pada kartu SNBP' className='input full' value={nama} onChange={(e) => setNama(e.target.value)} />
 
             <span className='input-caption'>Tanggal Lahir</span>
