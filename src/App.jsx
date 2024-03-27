@@ -70,7 +70,7 @@ function LoginInput({ onLogin }) {
           <div className='formContent'>
             {/* MAIN INPUT! */}
             <span className='input-caption'>Nomor Pendaftaran</span>
-            <input type="tel" name="yourName" placeholder='Nama mu pada kartu SNBP' className='input full' value={nama} onChange={(e) => setNama(e.target.value)} />
+            <input type="text" name="yourName" placeholder='Nama mu pada kartu SNBP' className='input full' value={nama} onChange={(e) => setNama(e.target.value)} />
 
             <span className='input-caption'>Tanggal Lahir</span>
             <div className='tanggal'>
